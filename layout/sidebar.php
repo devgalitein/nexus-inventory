@@ -1,6 +1,6 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="http://localhost/inventory_management/" class="brand-link">
+    <a href="./dashboard.php" class="brand-link">
         <img src="./dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
             style="opacity: 0.8" />
         <span class="brand-text font-weight-light">Inventory System</span>
@@ -22,31 +22,31 @@ function active($currect_page){
                 <!-- Add icons to the links using the .nav-icon class
                      with font-awesome or any other icon font library -->
                 <li class="nav-item" id="home">
-                    <a class="nav-link <?php active('dashboard');?>" href="dashboard">
+                    <a class="nav-link <?php active('dashboard');?>" href="dashboard.php">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>Dashboard</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active('product-list'); active('product-create');  active('product-edit')?>" href="product-list">
+                    <a class="nav-link <?php active('product-list'); active('product-create');  active('product-edit')?>" href="product-list.php">
                         <i class="nav-icon fas fa-plus"></i>
                         <p>Products</p>
                     </a>
                 </li>
                 <li class="nav-item" id="inventory">
-                    <a class="nav-link <?php active('inventory'); active('inventory-create'); active('inventory-edit')?>" href="inventory">
+                    <a class="nav-link <?php active('inventory'); active('inventory-create'); active('inventory-edit')?>" href="inventory.php">
                         <i class="nav-icon fas fa-solid fa-warehouse"></i>
                         <p>Inventory</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active('orders');?>" href="orders">
+                    <a class="nav-link <?php active('orders');?>" href="orders.php">
                         <i class="nav-icon fas fa-solid fa-list"></i>
                         <p>Orders</p>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active('analytics');?>" href="analytics">
+                    <a class="nav-link <?php active('analytics');?>" href="analytics.php">
                         <i class="nav-icon fas fa-chart-area"></i>
                         <p>
                             Analytics
@@ -55,7 +55,7 @@ function active($currect_page){
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active('sent-emails');?>" href="sent-emails">
+                    <a class="nav-link <?php active('sent-emails');?>" href="sent-emails.php">
                         <i class="nav-icon fas fa-envelope"></i>
                         <p>
                             Sent E-mails
@@ -64,7 +64,7 @@ function active($currect_page){
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link <?php active('marketplace');?>" href="marketplace">
+                    <a class="nav-link <?php active('marketplace');?>" href="marketplace.php">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
                             Market Place

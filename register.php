@@ -7,7 +7,7 @@
     <div class="card-body register-card-body">
         <p class="login-box-msg">Register a new membership</p>
 
-        <form action="./index" method="post">
+        <form action="./index.php" method="post">
             <div class="input-group mb-3">
                 <input type="text" class="form-control" placeholder="Full name">
                 <div class="input-group-append">
@@ -43,7 +43,7 @@
                 <!-- /.col -->
             </div>
         </form>
-        <a href="./index" class="text-center">I already have a membership</a>
+        <a href="./index.php" class="text-center">I already have a membership</a>
     </div>
     <!-- /.form-box -->
 </div><!-- /.card -->
